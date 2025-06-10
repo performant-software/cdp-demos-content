@@ -1,5 +1,6 @@
 {
   "title": "Performant Software Scavenger Hunt",
+  "font_header": "Open Sans",
   "footer": {
     "allow_login": true
   }
