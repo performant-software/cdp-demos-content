@@ -4,9 +4,11 @@ cardImage: >-
   https://core-data-tina-cms.s3.us-east-1.amazonaws.com/pss-scavenger-hunt/54th%20Regiment%20Memorial%20.jpg
 ---
 
-Posts can include data visualizations and media from Core Data.
+Posts can include data visualizations, media from Core Data, places from Core Data, and external AV.
 
 ## Data Visualizations
+
+Map interface search results can be exported and then imported as data sources for the following data visualizations: Tables, Maps, Timelines, and Events by Year. 
 
 <data_table title="Table" data="{&#x22;name&#x22;:&#x22;places&#x22;,&#x22;data&#x22;:{&#x22;columns&#x22;:[&#x22;name&#x22;],&#x22;rows&#x22;:[{&#x22;name&#x22;:&#x22;Made Land Boundary-Fairfield & Back &#x22;},{&#x22;name&#x22;:&#x22;Alexander Hamilton Monument&#x22;},{&#x22;name&#x22;:&#x22;Tatte Bakery & Cafe&#x22;},{&#x22;name&#x22;:&#x22;John Glover Monument&#x22;},{&#x22;name&#x22;:&#x22;Made Land Boundary-Boylston & Charles&#x22;},{&#x22;name&#x22;:&#x22;Samuel Eliot Morrison Monument&#x22;},{&#x22;name&#x22;:&#x22;Boston Architectural School&#x22;},{&#x22;name&#x22;:&#x22;Made Land Boundary-Beacon & Charles&#x22;},{&#x22;name&#x22;:&#x22;Made Land Boundary-Exeter & Boylston&#x22;},{&#x22;name&#x22;:&#x22;Location of First English High School&#x22;},{&#x22;name&#x22;:&#x22;Boston Public Library&#x22;},{&#x22;name&#x22;:&#x22;Louisburg Square&#x22;},{&#x22;name&#x22;:&#x22;Robert Frost House&#x22;},{&#x22;name&#x22;:&#x22;Anne Whitney's Studio&#x22;},{&#x22;name&#x22;:&#x22;Nathaniel and John Thayer Houses&#x22;},{&#x22;name&#x22;:&#x22;66 Mount Vernon Street&#x22;},{&#x22;name&#x22;:&#x22;Chester Harding House&#x22;}]}}" />
 
@@ -49,3 +51,19 @@ Media from Core Data can also be embedded using a IIIF viewer. The metadata fiel
       "https://staging.iiifcloud.com/public/resources/94afa83e-b138-4f66-824d-698d73d15486/preview"
   }}
 />
+
+## Place
+
+Individual places can be embedded from Core Data. Unlike the data visualizations, these are not static, so updates to a place record in Core Data will be reflected here.
+
+<place
+  place={{
+    title: "Trident Booksellers and Café",
+    uuid: "7108a48f-46a7-4112-ad11-204127e31f5d",
+    buffer: 0.5
+  }}
+  title="Trident"
+  caption="Trident Booksellers and Café"
+/>
+
+## External AV
